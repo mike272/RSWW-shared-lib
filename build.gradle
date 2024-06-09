@@ -1,12 +1,15 @@
-plugins {
+plugins{
     id 'java'
+    id 'maven-publish'
 }
 
 group = 'com.rsww'
+
 version = '1.0'
 
 repositories {
     mavenCentral()
+    maven { url "https://jitpack.io"  }
 }
 
 dependencies {
@@ -33,7 +36,3 @@ jar {
     }
 }
 
-plugins{
-    id 'java'
-    id 'maven-publish'
-}
