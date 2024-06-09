@@ -35,4 +35,16 @@ jar {
                    'Implementation-Version': version
     }
 }
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url mavenLocal().url
+        }
+    }
+}
 
