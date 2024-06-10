@@ -23,4 +23,6 @@ public class TransportReservationEvent
     private int customerId;
     private double amount;
     private ReservationEventType status;
+    private String location;
+    private String dates;
 }

@@ -28,4 +28,6 @@ public class HotelReservationEvent
     private Date checkInDate;
     private Date checkOutDate;
     private ReservationEventType status;
+    private String location;
+    private String dates;
 }

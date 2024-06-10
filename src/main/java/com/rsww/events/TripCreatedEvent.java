@@ -17,4 +17,6 @@ public class TripCreatedEvent
     private Trip trip;
 //    additional id field for saga handler
     private int tripReservationId;
+    private String location;
+    private String dates;
 }

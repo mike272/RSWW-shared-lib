@@ -16,4 +16,6 @@ import lombok.NoArgsConstructor;
 public class AllReservationsCreatedEvent
 {
     private int tripReservationId;
+    private String location;
+    private String dates;
 }
