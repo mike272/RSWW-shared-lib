@@ -18,4 +18,5 @@ public class AllReservationsConfirmedEvent
     private int tripReservationId;
     private String location;
     private String dates;
+    private int clientId;
 }
