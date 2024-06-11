@@ -25,4 +25,5 @@ public class TransportReservationEvent
     private ReservationEventType status;
     private String location;
     private String dates;
+    private int bookedPlaces;
 }
